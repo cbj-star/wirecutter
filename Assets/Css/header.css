@@ -1,0 +1,426 @@
+body {
+    overflow-x: hidden;
+}
+
+.cj_search {
+    background-color: rgba(176, 245, 245, 0.829);
+    color: darkblue;
+    width: 300px;
+    outline: none;
+    border: none;
+    padding: 10px;
+}
+
+.cj_list li {
+    margin: 0px 10px;
+    border-bottom: solid rgb(5, 157, 207);
+}
+
+.list_exception {
+    border-bottom: none !important;
+}
+
+i {
+    margin-top: 5px;
+    margin-right: 10px;
+}
+
+.has-search .form-control {
+    padding-left: 2.2rem;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 60.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #3c78f0!important;
+}
+
+.cj_forms {
+    background-color: #c8f1ff !important;
+    display: flex!important;
+    outline: none!important;
+    outline-style: none;
+    width: 500px!important;
+    border-radius: 0px!important;
+    padding: 21px 20px!important;
+    border-style: none!important;
+}
+
+.cj_tittle {
+    color: #3c78f0;
+    font-weight: 400px;
+    padding: 20px 0px;
+}
+
+.cj_card {
+    background-color: #eef4ff;
+    padding: 20px;
+}
+
+.card-tittle {
+    font-size: 16px;
+    font-family: 'Franklin', Helvetica, sans-serif;
+}
+
+.card-content {
+    font-size: 12px;
+    font-family: 'Franklin', Helvetica, sans-serif;
+}
+
+.card-tittle2 {
+    font-size: 16px;
+    font-family: 'Franklin', Helvetica, sans-serif;
+}
+
+.card-content2 {
+    font-size: 12px;
+    font-family: 'Franklin', Helvetica, sans-serif;
+}
+
+hr {
+    background-color: black;
+    padding: 1px;
+}
+
+.details a {
+    color: black;
+}
+
+.details a:hover {
+    color: black;
+}
+
+.price {
+    color: darkgreen;
+}
+
+.price2 {
+    text-decoration: overline;
+    color: darkgrey;
+}
+
+.details {
+    font-size: 14px;
+    font-family: 'Franklin', Helvetica, sans-serif;
+}
+
+.all_products a {
+    color: black;
+}
+
+.all_products a:hover {
+    color: black;
+}
+
+.new_update {
+    font-size: 24px;
+    font-family: karnak;
+    color: black!important;
+}
+
+.new_update a {
+    color: black;
+}
+
+.new_update a:hover {
+    color: black;
+}
+
+.price,
+.price2 {
+    font-size: 12px;
+    font-family: 'Franklin', 'Helvetica', 'sans-serif';
+}
+
+.updates li {
+    font-size: 1rem;
+    line-height: 1.25rem;
+    font-family: Franklin, helvetica, sans-serif;
+    font-weight: 700;
+    color: #000;
+    text-decoration: none;
+    display: block;
+}
+
+.updates li a {
+    font-size: 1rem;
+    line-height: 1.25rem;
+    font-family: Franklin, helvetica, sans-serif;
+    font-weight: 700;
+    color: #000;
+    text-decoration: none;
+    display: block;
+}
+
+.updates {
+    margin: 0px;
+    padding: 0px;
+}
+
+.updates li p {
+    color: #335ab9;
+    font-size: 12px;
+    font-family: 'Franklin', 'Helvetica', 'sans-serif';
+}
+
+.see_everything {
+    font-size: 1rem;
+    line-height: 1.375rem;
+    font-family: Franklin, helvetica, sans-serif;
+    font-weight: 500;
+    color: #000;
+    font-weight: 700;
+}
+
+.see_everything a:hover {
+    color: black!important;
+    background-color: black;
+}
+
+.airconditioner {
+    color: black;
+    text-decoration: none;
+}
+
+.conditioner {
+    font-size: 2.625rem;
+    line-height: 3rem;
+    font-family: 'Franklin', 'helvetica', 'sans-serif';
+    font-weight: 900;
+    letter-spacing: -1px;
+    color: #000;
+}
+
+.airconditioner:hover {
+    color: black;
+}
+
+.madeby {
+    font-size: 1rem;
+    line-height: 1.25rem;
+    font-family: Franklin, helvetica, sans-serif;
+    font-weight: 700;
+    color: #000;
+    margin-top: 8px;
+    margin-bottom: 16px;
+}
+
+.description {
+    font-size: 1rem;
+    font-family: imperial, georgia, serif;
+}
+
+.description a {
+    color: #d6363c;
+}
+
+.related {
+    padding-top: 2px;
+    font-family: Karnak;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.related-link {
+    font-size: 1rem;
+    line-height: 1.25rem;
+    font-family: Franklin, helvetica, sans-serif;
+    font-weight: 700;
+    color: #000;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.related-link a {
+    color: black;
+}
+
+.related-link li {
+    margin-bottom: 16px;
+    line-height: 20px;
+}
+
+.kid {
+    border-top: 3px solid #3c78f0;
+    padding: 20px 0px;
+}
+
+.kidagain {
+    font-size: 2.625rem;
+    line-height: 3rem;
+    font-family: Franklin, helvetica, sans-serif;
+    font-weight: 900;
+    letter-spacing: -1px;
+    color: #000;
+}
+
+.summer {
+    max-width: 672px;
+    font-size: 24px;
+    font-family: Franklin, helvetica, sans-serif;
+}
+
+.kidcap {
+    align-self: auto;
+    font-size: 1.5rem;
+    line-height: 1.875rem;
+    font-family: Franklin, helvetica, sans-serif;
+    font-weight: 700;
+    letter-spacing: -.25px;
+    color: #000;
+    margin: 16px 0;
+}
+
+.kidcaption {
+    color: black;
+    text-decoration: none;
+}
+
+
+/* section2 */
+
+.home {
+    border-top: 3px solid #3c78f0;
+    padding: 20px 0px;
+}
+
+.homelinks {
+    font-size: 1rem;
+    line-height: 1.375rem;
+    font-family: Franklin, helvetica, sans-serif;
+    font-weight: 500;
+    color: #000;
+}
+
+.smarthome {
+    text-decoration: underline;
+    color: #000000;
+}
+
+.pliers {
+    padding: 20px 0px;
+}
+
+.plier a:hover {
+    color: black;
+}
+
+.plier {
+    font-size: 1.5rem;
+    line-height: 1.875rem;
+    font-family: Franklin, helvetica, sans-serif;
+    font-weight: 700;
+    letter-spacing: -.25px;
+    color: #000;
+    margin: 16px 0 0;
+}
+
+.plier_li {
+    text-decoration: none;
+    color: black;
+}
+
+.time {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-family: Franklin, helvetica, sans-serif;
+    font-weight: 700;
+    color: #000;
+    letter-spacing: .5px;
+    color: #335ab9;
+    text-transform: uppercase;
+}
+
+.up {
+    margin-right: 5px;
+}
+
+.cj_img {
+    padding-top: 21px;
+}
+
+.cj_box {
+    padding-left: 2px;
+}
+
+
+/* footer css */
+
+.cj_footer {
+    background-color: #333;
+    padding: 50px 0px;
+}
+
+.cj_footer .footer_list1 li {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    color: #fff;
+    font-weight: 900px;
+    font-size: 15px;
+    font-family: 'Franklin', 'helvetica', 'sans-serif';
+}
+
+.cj_footer .footer_list1 li a {
+    color: #fff;
+}
+
+.cj_footer .footer_list2 li {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    color: #cccccc;
+}
+
+.cj_footer .footer_list2 li a {
+    color: #cccccc;
+}
+
+.friends {
+    color: #fff;
+}
+
+.cj_social {
+    list-style: none;
+}
+
+.social i {
+    border-radius: 50%;
+    font-size: 25px;
+    color: black;
+    background-color: #fff;
+    padding: 10px;
+}
+
+.cj_footer .footer_list3 li a {
+    color: #fff
+}
+
+.cj_footer .footer_list3 li a span>a {
+    color: #cccccc;
+}
+
+.footer_list3 li {
+    list-style: none;
+}
+
+.copyright {
+    color: #cccccc;
+    margin-top: 50px;
+    margin-left: 35px;
+    font-size: 12px;
+}
+
+@media only screen and (max-width: 768px) {
+    .has-search {
+        display: none;
+    }
+}
